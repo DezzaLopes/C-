@@ -15,7 +15,7 @@ namespace CalculadoraApp
             double resultado;
             string opcao;
 
-            Console.WriteLine("Escolha uma opcao: \n 1- Somar \n 2- Subtrair \n 3- Multiplicar \n 4- Dividir");
+            Console.WriteLine("Escolha uma opcao: \n 1- Somar \n 2- Subtrair \n 3- Multiplicar \n 4- Dividir \n enjoy");
 
             opcao = Console.ReadLine();
 
@@ -26,7 +26,7 @@ namespace CalculadoraApp
             Console.Write("Digite o segundo numero: ");
             numeroDois = double.Parse(Console.ReadLine());
 
-            if (opcao.Equals("1"))
+            if (opcao.Equals("1"))  
             {
                 resultado = numeroUM + numeroDois;
                 Console.WriteLine(resultado);
